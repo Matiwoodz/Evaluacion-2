@@ -21,3 +21,29 @@ y los envía a una API REST de biblioteca para almacenarlos.
 - Librerías:  
   ```bash
   pip install requests
+# 🌍 geo.py — Buscador de Rutas con GraphHopper API
+
+`geo.py` es un script interactivo en **Python** que utiliza la API de **GraphHopper** para realizar búsquedas geográficas y calcular rutas entre dos ubicaciones.  
+Permite elegir distintos tipos de transporte y entrega información detallada del recorrido, incluyendo **distancia, duración y pasos de navegación**.
+
+---
+
+## 🚗 Funcionalidades
+- 🔍 **Geocodificación:** convierte nombres de lugares en coordenadas (latitud y longitud).  
+- 🗺️ **Cálculo de rutas:** genera direcciones paso a paso entre origen y destino.  
+- 🚙 **Perfiles disponibles:**  
+  - `auto`  
+  - `bicicleta`  
+  - `a pie`  
+- ⏱️ Muestra:
+  - Distancia total del viaje.  
+  - Duración estimada (horas, minutos, segundos).  
+  - Instrucciones de ruta traducidas al español.  
+
+---
+
+## 🛠️ Requisitos
+- **Python 3.x**  
+- Librerías necesarias:
+  ```bash
+  pip install requests
